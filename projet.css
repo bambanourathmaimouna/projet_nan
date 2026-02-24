@@ -183,11 +183,11 @@ border-radius: 30px;
     gap: 15px;
 }
 #sousfils3{
-    animation: keline 10s ease infinite;
+    animation: nourath 10s ease infinite;
 }
-@keyframes keline{
+@keyframes nourath{
     from{
-        transform: translate(1503px);
+        transform: translate(50px);
     }
 to{
     transform: translateX(-8000 px);
@@ -214,10 +214,45 @@ to{
     margin: 20px;
    
 }
-.div5{
-    
-}
 
+.D1{
+ border: 2px solid black; 
+ display: flex;  
+ justify-content: space-around;
+
+}
+.DA{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+}
+.D2{
+    border: 2px solid black; 
+ display: flex;  
+ justify-content: space-around;
+}
+.D1 .DA img{
+    width: 400px;
+    height: 300px;
+}
+.D2 .DA img{
+    width: 400px;
+    height: 300px;
+}
+.etoile{
+position: relative;
+display: flex; background-color: #008ec4;
+bottom: 80%;
+width: 70px;
+height: 60px;
+border-radius:20px;
+justify-content: center;
+align-items: center;
+
+}
+.etoile .fa-solid .fa-solid {
+    height: 5px;
+}
 
 
     

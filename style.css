@@ -1,8 +1,9 @@
-*{
+body{
     text-decoration: none;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 body{
     font-family: Arial, Helvetica, sans-serif; 
@@ -26,12 +27,13 @@ header{
 nav ul{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 10px;
     list-style: none;
+    gap: 10px;
     padding: 0 100px;
     position: relative;
+    text-decoration: none;
 }
 ul li a{
     padding: 60px;
@@ -41,7 +43,7 @@ ul li a{
 a{
     color: white;
     font-size: 20px;
-    padding:0 60px
+    padding:0 60px;
  }
 .div1{
     position: absolute;
@@ -117,12 +119,11 @@ a h1{
 .all{
     width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     position: relative;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
     gap: 50px;
-    padding: 50px;
 }
 .divB{
     display: block;
@@ -213,7 +214,7 @@ to{
     display: flex;
     justify-content: center;
     gap: 60px;
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 .card{
@@ -273,6 +274,8 @@ background-color: white;
     background-size: 100%;
     height: 700px;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .voisin button{
@@ -282,7 +285,8 @@ background-color: white;
     margin: 50px;
     border-radius: 50px;
     font-size: 20px;
-    display: flex; justify-content: center;
+    display: flex; 
+    justify-content: center;
     align-items: center;
 }
 
@@ -328,6 +332,13 @@ background-color: white;
 }
 .mouna img{
     width: 250px;
+}
+.aziz{
+    width: 250px;
+    height: 40px;
+    color: white;
+    position: absolute;
+    margin-top: 320px;
 }
 .arnau{
     height:600px;
@@ -427,3 +438,102 @@ border-radius: 20px;
     margin-left: 60px;
     font-size: 20px;
 }
+.lili{
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ .lili .li1{
+   height: 350px;
+    width: 1100px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+background-color: #f3f4f5d8;
+}
+.liA{
+    height: 350px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-image: url(./images/WhatsApp\ Image\ 2026-02-28\ at\ 18.29.29.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.liB{
+    height: 350px;
+    width: 650px; 
+    border-radius: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+   
+}
+ .lili.liB.liC{
+    height: 90px;
+    width: 80px;
+    background-color: black;
+}
+.liC .rlc{
+    width: 500px;
+    height: 60px;
+    background-color: white;
+    margin-left: 100px;
+    border-radius: 40px;
+}
+footer{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.citron{
+    height: 300px;
+    width: 300px;
+    border: 2px solid beige;
+    display: flex;
+    margin: 70px;
+    color: #ebf9ff;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: -30px;
+}
+.banane{
+    height: 100px;
+    width: 300px;
+    border: 2px solid beige;
+    margin: 70px;
+}
+.banane .ul{
+width: 300px;
+height: 100px;
+border: 2px solid white;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.banane .lu{
+    width: 300px;
+    height: 100px;
+    border: 2px solid red;
+}
+.logo1{
+    width: 300px;
+    height: 100px;
+    border: 2px solid white;  
+}
+
+
+
